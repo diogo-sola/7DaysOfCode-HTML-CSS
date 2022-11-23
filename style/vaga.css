@@ -1,0 +1,39 @@
+.vaga {
+    margin: 3em 20em;
+}
+
+.vaga__area {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-cinza-escuro);
+    padding-bottom: 3em;
+}
+
+.vaga__informacoes {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 0.5em;
+    margin-bottom: 1.8em;
+}
+
+.vaga__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1em 1em;    
+}
+
+.vaga__informacoes-horario {
+    padding: 0 2em 0 0;
+}
+
+.vaga__informacoes-complementares {
+    display: flex;
+    padding: 1em 1em;
+    justify-content: flex-start;
+    justify-items: flex-start ;
+    font-weight: 500;
+    color: var(--cor-cinza-claro);
+}
+

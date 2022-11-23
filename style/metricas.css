@@ -1,0 +1,30 @@
+.container__metricas {
+    display: flex;
+    padding: 0 7em;
+    justify-content: space-around;
+    margin-bottom: 10em;
+}
+
+.metricas__item {
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.metricas__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-bordo);
+}
+
+.metricas__subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-cinza-escuro);
+    margin: 1em 0 0.8em; 
+}
+
+.metricas__texto {
+    color: var(--cor-cinza-claro);
+    line-height: 1.5em;
+    padding-right: 2em;
+}

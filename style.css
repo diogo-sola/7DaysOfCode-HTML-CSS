@@ -1,0 +1,24 @@
+@import url(style/reset.css);
+@import url(style/navegacao.css);
+@import url(style/cabecalho.css);
+@import url(style/metricas.css);
+@import url(style/talentos.css);
+@import url(style/vaga.css);
+@import url(style/depoimento.css);
+@import url(style/rodape.css);
+
+:root {
+    --fonte-principal: "Inter";
+    --cor-de-fundo: #FFFFFF;
+    --cor-cinza-claro: #667085;
+    --cor-cinza-medio: #3A404E;
+    --cor-cinza-escuro: #101828;
+    --cor-bordo: #8E2424;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal), sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
